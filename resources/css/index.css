@@ -1,15 +1,43 @@
+body {
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 #navbar {
     background-color: #22155A;
     
 }
-
-#icons {
-    color : white;
+.icons {
     font-size: small;
+    list-style: none;
+    padding: 5px;
+}
+li {
+    float: left;
+}
+li a {
+    color: white;
+    padding: 10px;
+}
+#quiz {
+    margin-top: 100px;
+    text-align: center;
+}
+#question {
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(19, 116, 119);
+}
+.buttons {
+    margin-top: 30px;
 }
 #btn0, #btn1, #btn2, #btn3 {
+    color: wheat;
     background-color: #22155A;
     width: 300px;
     border: 1px solid #22155A;
     border-radius: 3px;
+    padding: 20px;
+    margin: 10px;
 }
