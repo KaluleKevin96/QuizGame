@@ -27,17 +27,34 @@ li a {
 #question {
     font-size: x-large;
     font-weight: bolder;
-    color: rgb(19, 116, 119);
+    color: rgb(28, 65, 66);
+}
+#progress {
+    text-align: right;
+    margin-right: 128px;
+    color: #c23616;
+    font-weight: bold;
 }
 .buttons {
     margin-top: 30px;
 }
 #btn0, #btn1, #btn2, #btn3 {
     color: wheat;
-    background-color: #22155A;
+    background-color: #eb4d4b;
     width: 300px;
     border: 1px solid #22155A;
     border-radius: 3px;
     padding: 20px;
     margin: 10px;
+}
+#reload {
+    text-align: center;
+}
+#Reset {
+    margin-top: 30px;
+    background-color: #22155A;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: 1px solid #22155A;
 }
